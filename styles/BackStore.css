@@ -46,12 +46,12 @@ li.list-group-item.New {
   font-family: "Comic Sans MS";
 }
 button.btn.btn-success {
-  width: 47%;
+  width: 100%;
   word-wrap: break-word;
   text-align: center;
 }
 
-/*  */
+/* edit user section */
 li.list-group-item.Create {
   margin: auto;
   width: 100%;
