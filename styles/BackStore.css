@@ -1,54 +1,75 @@
 /* all buttons */
-ul.list-group.list-group-horizontal{
-    margin: auto;
-    width: 90%; 
-    border: 1px solid #000000;
+ul.list-group.list-group-horizontal {
+  margin: auto;
+  width: 90%;
+  border: 1px solid #000000;
 }
 
 /* user names */
-li.list-group-item.ProductList{
-    width: 40%;
+li.list-group-item.ProductList {
+  width: 40%;
 }
-li.list-group-item.User{
-    width: 20%;
-    text-align: left;
-    font-size: large;
+li.list-group-item.User {
+  width: 20%;
+  text-align: left;
+  font-size: large;
 }
 
 /* danger button */
-li.list-group-item.Delete{
-    width: 20%;
-    align-content: center;
-    font-family: "Comic Sans MS"
+li.list-group-item.Delete {
+  width: 20%;
+  align-content: center;
+  font-family: "Comic Sans MS";
 }
-button.btn.btn-danger{
-    width: 100%;    
-    word-wrap: break-word;
-    text-align: center;
+button.btn.btn-danger {
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
 }
 
 /* edit button */
-li.list-group-item.Edit{
-    width: 20%;
-    align-content: center;
-    font-family: "Comic Sans MS"
+li.list-group-item.Edit {
+  width: 20%;
+  align-content: center;
+  font-family: "Comic Sans MS";
 }
-button.btn.btn-primary{
-    width: 100%;
-    word-wrap: break-word;
-    text-align: center;
+button.btn.btn-primary {
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
 }
 
 /* new button */
-li.list-group-item.New{
-    width: 40%;
-    text-align: right;
-    font-family: "Comic Sans MS"
+li.list-group-item.New {
+  width: 40%;
+  text-align: right;
+  font-family: "Comic Sans MS";
 }
- button.btn.btn-success{
-    width: 47%;    
-    word-wrap: break-word;
-    text-align: center;
- }
+button.btn.btn-success {
+  width: 47%;
+  word-wrap: break-word;
+  text-align: center;
+}
 
+/*  */
+li.list-group-item.Create {
+  margin: auto;
+  width: 100%;
+  align-content: center;
+  text-align: center;
+  font-size: large;
+}
 
+span.input-group-text.Begin {
+  width: 20%;
+}
+
+div.width_adjustment {
+  width: 90%;
+  margin: auto;
+}
+
+div.input-group.row {
+  border: 1px solid #000000;
+  margin: auto;
+}
