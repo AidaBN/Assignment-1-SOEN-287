@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrderList</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/BackStore.css">
+</head>
+
+<body>
+
+    <!-- Start of navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Metro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">ProductList</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/templates/UserList.html">UserList</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/templates/OrderList.html">OrderList</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <!-- End of navigation bar -->
+
+    <!-- Start of order section -->
+    <ul class="list-group list-group-horizontal">
+        <li class="list-group-item User">List of users</li>
+        <li class="list-group-item ProductList">Orders</li>
+        <li class="list-group-item New">
+            <a href="/templates/EditOrder.html"><button type="button" class="btn btn-success">New</button></a>
+        </li>
+    </ul>
+    <ul class="list-group list-group-horizontal">
+        <li class="list-group-item User">Jack Black</li>
+        <li class="list-group-item ProductList">1x chicken alfredo sauce, 1x spaghetti, 1x meatballs</li>
+        <li class="list-group-item Edit">
+            <a href="/templates/EditOrder.html"><button type="button" class="btn btn-primary">Edit</button></a>
+        </li>
+        <li class="list-group-item Delete">
+            <button type="button" class="btn btn-danger">Delete</button>
+        </li>
+    </ul>
+    <ul class="list-group list-group-horizontal">
+        <li class="list-group-item User">sango bango</li>
+        <li class="list-group-item ProductList">1x red wine, 4x frozen pizza, 8x oreo cookies</li>
+        <li class="list-group-item Edit">
+            <a href="/templates/EditOrder.html"><button type="button" class="btn btn-primary">Edit</button></a>
+        </li>
+        <li class="list-group-item Delete">
+            <button type="button" class="btn btn-danger">Delete</button>
+        </li>
+    </ul>
+    <ul class="list-group list-group-horizontal">
+        <li class="list-group-item User">Big Salad Man</li>
+        <li class="list-group-item ProductList">1x baguette, 1x 2L sprite, 1x Cruchies(tm) chips</li>
+        <li class="list-group-item Edit">
+            <a href="/templates/EditOrder.html"><button type="button" class="btn btn-primary">Edit</button></a>
+        </li>
+        <li class="list-group-item Delete">
+            <button type="button" class="btn btn-danger">Delete</button>
+        </li>
+    </ul>
+    <ul class="list-group list-group-horizontal">
+        <li class="list-group-item User">Rayan Patel</li>
+        <li class="list-group-item ProductList">25x salad head, 10x baby carrot</li>
+        <li class="list-group-item Edit">
+            <a href="/templates/EditOrder.html"><button type="button" class="btn btn-primary">Edit</button></a>
+        </li>
+        <li class="list-group-item Delete">
+            <button type="button" class="btn btn-danger">Delete</button>
+        </li>
+    </ul>
+    <!-- End of order list -->
+
+</body>
+
+</html>
