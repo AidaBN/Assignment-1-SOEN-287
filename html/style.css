@@ -216,3 +216,15 @@ body{
 .signup-form a:hover{
     color: #ffc107;
 }
+
+.header{
+    padding: 10px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 12px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}

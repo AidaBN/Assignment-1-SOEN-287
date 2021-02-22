@@ -48,3 +48,8 @@ h6{
     text-decoration: none;
     color: black;
 }
+
+.header h2 a{
+    text-decoration: none;
+    color: white;
+}
