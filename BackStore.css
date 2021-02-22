@@ -39,6 +39,15 @@ button.btn.btn-primary {
   text-align: center;
 }
 
+/* save button */
+button.btn.btn-update {
+  width: 8%;
+  position: absolute;
+  right: 5%;
+  font-family: "Comic Sans MS";
+  word-wrap: break-word;
+}
+
 /* new button */
 li.list-group-item.New {
   width: 40%;
