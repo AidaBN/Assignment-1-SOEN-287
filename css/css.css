@@ -7,28 +7,36 @@
   }
 
 body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
     background-image: url(pic1.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    
+       
 }
 div h3 {
    text-align: center;
    padding: 15px;
 }
-section{
-    margin-top: 20%;
-    margin-bottom: 20%;
-}
 
 
-section h2{
+
+.section h2{
+    padding-top: 20%;
     text-align: center;
 }
 
 footer{
+  
     text-align: center;
     background-color: black;
     color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    size: 15px;
+   
  }
 
 h6{
