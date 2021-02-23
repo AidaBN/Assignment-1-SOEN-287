@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(/images/miscellaneous/Picture2.jpg);
+    background: url(../images/miscellaneous/Picture2.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -112,7 +112,7 @@ h1{
 body{
     margin: 0;
     padding: 0;
-    background: url(/images/miscellaneous/Background.jfif);
+    background: url(../images/miscellaneous/Background.jfif);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;

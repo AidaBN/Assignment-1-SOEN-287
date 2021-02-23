@@ -7,7 +7,7 @@
   }
 
 body{
-    background-image: url(/images/miscellaneous/Picture2.jpg);
+    background-image: url(../images/miscellaneous/Picture2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
